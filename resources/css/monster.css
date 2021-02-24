@@ -1,0 +1,234 @@
+/*-----------------------------------*/
+/* BASIC SETUP */
+/*-----------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #212121;
+    font-family: "roboto", "HCo Champion Middlewt", "sans-serif";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/*-----------------------------------*/
+/* REUSABLE COMPONENTS */
+/*-----------------------------------*/
+
+.row{
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  
+  section{
+    padding: 80px 0 80px 0 ;
+  }
+  
+  .box{
+    padding: 1%;
+  }
+
+/*-----------------HEADINGS------------------*/
+h1 {
+    font-weight: 500;
+    font-size: 35px;
+    color: #6e46ae;
+}
+
+/*-----------------------------------*/
+/* HEADER & HEADINGS */
+/*-----------------------------------*/
+
+.logo{
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: -15px;
+    margin-left: 20px;
+}
+
+.first-nav {
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+    margin-right: 10px;
+    
+}
+
+.first-nav li{
+    display: inline-block;
+    margin: 10px;
+    padding: 0;
+    
+}
+
+.nav-bar{
+    margin-top: 5px;
+    background-color: #ebecf0;
+
+}
+
+.nav-bar li{
+    display: inline-block;
+    padding: 0;
+    margin: 20px;
+    font-size: 14px;
+    font-family: 'roboto', 'sans-serif';
+    margin-left: 20px;
+    line-height: 20px;
+}
+
+h1 {
+    font-size: 35px;
+    line-height: 40px;
+    color: #3d2462;
+    font-weight: 500;
+}
+
+.search{
+    width: 65%;
+}
+
+.hero-image{
+    width: 35%;
+}
+
+.job-search{
+    padding: 0px;
+}
+
+.search li{
+    display: inline-block;
+    margin: 10px;
+    margin-left: auto;
+}
+
+.search-field{
+    height: 50px;
+    border: 1px solid #3d2462;
+    padding: 20px;
+    margin: 10px;
+    float: left;
+    border-radius: 5px;
+    outline: none;
+    width: 250px;
+    margin-left: auto;
+}
+::placeholder { 
+    color: #6e46ae;
+  }
+
+.search-btn {
+    height: 50px;
+    width: 100px;
+    border-radius: 100px;
+    outline: none;
+    border: 1px solid #6e46ae;
+    margin-left: auto;
+    float: left;
+    margin: 10px;
+    background-color: #6e46ae;
+    color: #fff;
+    cursor: pointer;
+}
+
+.job-ads{
+    margin-top: 40px;
+    padding: 30px;
+    background-color: #ebecf0;
+}
+
+.job-ads-txt{
+    margin: 0px;
+}
+
+.employer{
+    display: flex;
+    float: right;
+    margin-top: 10px;
+    color: black;
+
+}
+
+.vid-job-ads {
+    font-family: 'Roboto';
+    font-size: 35px;
+    font-weight: 300;
+    margin-top: 50px;
+    color: black;
+}
+
+.top-paragraph{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 24px;
+}
+
+.hor-line{
+    width: 100px;
+    background-color: black;
+    border: black;
+}
+
+.btm-paragraph {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 24px;
+}
+
+.jobs-btn {
+    height: 50px;
+    width: 200px;
+    border-radius: 100px;
+    outline: none;
+    border: 1px solid #6e46ae;
+    margin-left: auto;
+    float: left;
+    margin: 10px;
+    background-color: #6e46ae;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+hr {
+    width: 50%;
+    height: 1px;
+    border: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #ececec;
+}
+
+.video-picks{
+    margin: 10px;
+    margin-left: auto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.tools-header{
+
+}
+
+.tools-box{
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 10px 10px 10px #efefef;
+}
