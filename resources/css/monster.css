@@ -27,7 +27,7 @@ html {
     margin: 0 auto;
   }
   
-  section{
+  section {
     padding: 80px 0 80px 0 ;
   }
   
@@ -66,6 +66,7 @@ h1 {
     display: inline-block;
     margin: 10px;
     padding: 0;
+    text-decoration: none;
     
 }
 
@@ -83,6 +84,7 @@ h1 {
     font-family: 'roboto', 'sans-serif';
     margin-left: 20px;
     line-height: 20px;
+    text-decoration: none;
 }
 
 h1 {
@@ -100,7 +102,7 @@ h1 {
     width: 35%;
 }
 
-.job-search{
+.section-job-search{
     padding: 0px;
 }
 
@@ -139,7 +141,7 @@ h1 {
     cursor: pointer;
 }
 
-.job-ads{
+.section-job-ads{
     margin-top: 40px;
     padding: 30px;
     background-color: #ebecf0;
@@ -221,6 +223,10 @@ hr {
     line-height: 24px;
 }
 
+.section-tools{
+    padding: 40px;
+}
+
 .icon-tools{
     display: flex;
     text-align: center;
@@ -229,30 +235,27 @@ hr {
     line-height: 100px;
     vertical-align: middle;
     color: #929191;
-
-
 }
 
 .tools-box{
     background-color: #fff;
     border-radius: 5px;
-    width: 90%;
+    width: 100%;
     margin-left: 5%;
     padding: 25px;
-    box-shadow: 10px 10px 10px #efefef;
+    box-shadow: 3px 3px 5px 5px #e4e2e2;
 }
 
-
-
 .overall-header{
+    font-family: "Roboto";
+    font-weight: 900;
     word-spacing: 2px;
     font-size: 35px;
     line-height: 50px;
-    font-weight: 300;
     color: #404040;
     text-align: center;
     width: 100%;  
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .tools-box p{
@@ -261,9 +264,15 @@ hr {
     font-family: "Roboto", sans-serif;
     font-weight: normal;
     font-size: 16px;
+    color:  #000000;
+    font-weight: 200;
 }
 
 .tools-header {
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 400;
+    width: 100%;
     color: #007fad;
     text-align: center;
     line-height: 150%;
@@ -286,4 +295,114 @@ hr {
     margin-left: 50px;
 }
 
+.section-monster-app {
+    padding: 0px;
+}
 
+.app-background {
+    background-color: #4d2885;
+    background-image: linear-gradient(to right, #4d2885, #6f38c0);
+}
+
+.app-container{
+    padding: 40px 0px 40px 0;
+}
+
+.app-text h1{
+    font-size:38px;
+    font-weight:900;
+    line-height: 50px;
+    color: #fff;
+    margin-top: 70px;
+}
+
+.app-text h2{
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    font-size:20px;
+    font-weight:200;
+    line-height: 24px;
+    color: #fff;
+    letter-spacing: 1px;   
+}
+
+.button-app img{
+    height: 50px;
+    width: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    margin-right: 10px;
+  }
+
+.section-company-logo{
+      padding: 0;
+      padding-bottom: 40px;
+  }
+
+  .section-company-logo h1{
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+    font-size:35px;
+    font-weight:900;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    color: #404040;
+    margin-top: 50px;
+}
+
+.company-logo-amazon{
+      height: auto;
+      margin-top: 60px;
+      
+  }
+
+.company-logo-ups{
+    height: auto;
+}
+
+.company-logo-ibm{
+    height: auto;
+    margin-top: 40px;
+}
+
+.company-logo-cvs{
+    height: auto;
+}
+
+.section-usa-jobs{
+    padding: 0px;
+}
+
+.section-usa-jobs h2{
+    font-family: sans-serif, 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #212121;
+    margin: 20px;
+    margin-left: 0px;
+}
+
+.section-usa-jobs h3{
+    font-family: sans-serif, 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #212121;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+
+.section-usa-jobs a{
+    display: block;
+    color: #929191;
+    text-decoration: none;
+}
+
+.popular-container {
+    margin-bottom: 15px;
+}
+
+.section-usa-jobs p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #929191;
